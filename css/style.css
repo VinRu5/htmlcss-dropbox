@@ -69,19 +69,36 @@ nav.topbar ul li {
 /* jumbotron */
 header {
     background: #b4d0e7;
-    height: 550px;
+    height: 700px;
+}
+
+header .container-1 h1 {
+    font-size: 65px;
+    padding: 40px 30px 30px 0;
 }
 
 header .container-1 img {
     height: 450px;
     position: absolute;
-    top: 150px;
+    top: 300px;
     right: 0;
 
 }
 
 .text-header {
-    max-width: 300px;
+    max-width: 400px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.slogan {
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.arrow {
+    font-size: 60px;
+    padding-top: 20px;
 }
 
 /* piani di attivazione */
