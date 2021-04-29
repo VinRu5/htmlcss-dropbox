@@ -1,3 +1,4 @@
+/* reset */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,6 +6,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* class utility */
 .fl {
     float: left;
 }
@@ -21,7 +23,6 @@ ul {
 
 [class^="container-"] {
     margin: 0 auto;
-    /* border: 2px solid #333; */
 }
 
 .container-1 {
@@ -33,17 +34,39 @@ ul {
     width: 1100px;
 }
 
+.button {
+    display: inline-block;
+    background: #0061ff;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 20px;
+}
+
+/* navbar */
 nav.topbar {
-    border: 1px solid #333;
     height: 70px;
+    padding-top: 15px;
 }
 
 nav.topbar ul {
-    border: 2px dashed #f00;
     width: 50%;
-    height: 100%;
 }
 
+nav.topbar ul li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+/* nav.topbar img {
+    vertical-align: middle;
+} */
+
+.topbar-right {
+    text-align: right;
+}
+
+/* jumbotron */
 header {
     background: #b4d0e7;
     height: 550px;
@@ -61,6 +84,7 @@ header .container-1 img {
     max-width: 300px;
 }
 
+/* piani di attivazione */
 [class^="plans-item-"] {
     width: calc(100% / 3);
 }
@@ -75,5 +99,18 @@ header .container-1 img {
 
 .plans-item-3 {
     padding-left: 20px;
+}
+
+.plans-title {
+    font-size: 14px;
+    border: 1px solid #333;
+    border-bottom: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.plans-content {
+    height: 1200px;
+    border: 1px solid #333;
 }
 
