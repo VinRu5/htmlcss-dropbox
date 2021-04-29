@@ -25,12 +25,12 @@ ul {
 }
 
 .container-1 {
-    width: 1200px;
+    width: 1300px;
     position: relative;
 }
 
 .container-2 {
-    width: 1000px;
+    width: 1100px;
 }
 
 nav.topbar {
@@ -61,5 +61,19 @@ header .container-1 img {
     max-width: 300px;
 }
 
+[class^="plans-item-"] {
+    width: calc(100% / 3);
+}
 
+.plans-item-1 {
+    padding-right: 20px;
+}
+
+.plans-item-2 {
+    padding: 0 20px;
+}
+
+.plans-item-3 {
+    padding-left: 20px;
+}
 
