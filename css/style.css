@@ -85,6 +85,22 @@ header .container-1 img {
 }
 
 /* piani di attivazione */
+.plans {
+    padding: 150px 0 50px 0;
+}
+
+.plans h2 {
+    font-size: 40px;
+}
+
+.plans form {
+    font-size: 16px;
+}
+
+.plans h2, .plans form, .plans-items, .plans-enterprise {
+    padding: 20px 0;
+}
+
 [class^="plans-item-"] {
     width: calc(100% / 3);
 }
@@ -113,4 +129,5 @@ header .container-1 img {
     height: 1200px;
     border: 1px solid #333;
 }
+
 
