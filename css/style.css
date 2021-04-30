@@ -347,7 +347,7 @@ header .container-1 img {
 
 /* sezione faq */
 .faq {
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 .faq-title {
@@ -374,4 +374,40 @@ header .container-1 img {
 .vee {
     font-size: 18px;
     font-weight: bold;
+}
+
+/* footer */
+footer {
+    background: #000;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.footer-up {
+    height: 250px;
+}
+
+.footer-up-item {
+    width: calc(100% / 5);
+}
+
+.footer-up-item ul li {
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.footer-up-item ul li:first-child {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer .container-2 hr {
+    width: 100px;
+    border: 1px solid #fff;
+}
+
+.lang {
+    color: #ccc;
+    font-size: 10px;
+    padding-top: 20px;
 }
