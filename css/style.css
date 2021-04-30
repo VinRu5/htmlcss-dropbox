@@ -45,12 +45,20 @@ ul {
 
 /* navbar */
 nav.topbar {
-    height: 70px;
-    padding-top: 15px;
+    padding: 25px 0;
+}
+
+.topbar-ext {
+    width: 10%;
+}
+
+.topbar-int {
+    width: 40%;
 }
 
 nav.topbar ul {
-    width: 50%;
+    height: 25px;
+    line-height: 25px;
 }
 
 nav.topbar ul li {
@@ -59,12 +67,13 @@ nav.topbar ul li {
     font-size: 18px;
 }
 
-/* nav.topbar img {
-    vertical-align: middle;
-} */
-
 .topbar-right {
     text-align: right;
+}
+
+.button-nav {
+    padding: 0 25px;
+    height: 25px;
 }
 
 /* jumbotron */
@@ -146,6 +155,22 @@ header .container-1 img {
 }
 
 /* contenuto piani di attivazione */
+.plans-title img {
+    height: 14px;
+}
+
+.plans-img {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.plans-img-text {
+    display: inline-block;
+    width: 90%;
+}
+.plans-content ul li img {
+    height: 14px;
+}
 
 .plans-content h3, .plans-content-enterprise h3 {
     font-size: 26px;
@@ -164,6 +189,7 @@ header .container-1 img {
 
 .plans-content > ul {
     padding: 40px 0;
+    width: 100%;
 }
 
 .plans-content ul li{
