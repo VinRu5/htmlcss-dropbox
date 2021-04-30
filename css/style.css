@@ -215,12 +215,35 @@ header .container-1 img {
 
 .partner-text {
     width: 35%;
+    padding-top: 100px;
+}
+
+.partner-text h3 {
+    font-size: 24px;
+}
+
+.partner-text-1 {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+.button-white {
+    display: inline-block;
+    border: 1px solid #000;
+    font-size: 15px;
+    padding: 8px 25px;
+
 }
 
 /* sezione business */
+.business {
+    padding: 50px 0;
+}
+
 .business-container, .business-container-center {
     width: calc((100% /3) - 40px);
-    height: 450px;
+    height: 550px;
 }
 
 .business-container-center {
@@ -235,10 +258,25 @@ header .container-1 img {
     height: 200px;
 }
 
+.business h1 {
+    font-size: 34px;
+    padding-bottom: 30px;
+}
+
+.business-text h3 {
+    font-size: 22px;
+    padding-top: 10px;
+}
+
 /* sezione client */
+.client-text {
+    font-size: 45px;
+    padding-bottom: 10px;
+}
 
-
-
+.box-container {
+    margin-top: 20px;
+}
 
 .box {
     width: calc(100% / 3);
