@@ -216,3 +216,21 @@ header .container-1 img {
 .partner-text {
     width: 35%;
 }
+
+/* sezione business */
+.business-container, .business-container-center {
+    width: calc((100% /3) - 40px);
+    height: 450px;
+}
+
+.business-container-center {
+    margin: 0 60px;
+}
+
+.business-img {
+    text-align: center;
+}
+
+.business-img img {
+    height: 200px;
+}
