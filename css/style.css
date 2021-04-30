@@ -234,3 +234,54 @@ header .container-1 img {
 .business-img img {
     height: 200px;
 }
+
+/* sezione client */
+
+
+
+
+.box {
+    width: calc(100% / 3);
+    height: 400px;
+}
+
+.box-color {
+    background: #F5F5F5;
+}
+
+[class^="small-box-"] {
+    width: 50%;
+    height: 50%;
+}
+
+.small-box-1 {
+    background: #A2D39B;
+}
+
+.small-box-2 {
+    background: #61082B;
+}
+
+.small-box-3 {
+    background: #0093CE;
+}
+
+.small-box-4 {
+    background: #FF1C1C;
+}
+
+.small-box-5 {
+    background: #D5001F;
+}
+
+.small-box-6 {
+    background: #B2CEE4;
+}
+
+.small-box-7 {
+    background: #0D2480;
+}
+
+.small-box-8 {
+    background: #FAD42F;
+}
