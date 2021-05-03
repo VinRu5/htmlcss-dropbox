@@ -236,12 +236,12 @@ header .container-1 img {
 }
 
 .partner-img img {
-    height: 550px;
+    height: 500px;
 }
 
 .partner-text {
     width: 35%;
-    padding-top: 100px;
+    padding: 100px 0 0 30px;
 }
 
 .partner-text h3 {
