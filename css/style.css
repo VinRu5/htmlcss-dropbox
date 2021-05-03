@@ -57,8 +57,13 @@ nav.topbar {
 }
 
 nav.topbar ul {
-    height: 25px;
+    height: 33px;
     line-height: 25px;
+    padding: 8px 0;
+}
+
+nav.topbar ul:last-child {
+    padding: 0;
 }
 
 nav.topbar ul li {
@@ -71,10 +76,10 @@ nav.topbar ul li {
     text-align: right;
 }
 
-.button-nav {
+/* .button-nav {
     padding: 0 25px;
     height: 25px;
-}
+} */
 
 /* jumbotron */
 header {
