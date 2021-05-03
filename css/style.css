@@ -151,7 +151,7 @@ header .container-1 img {
 }
 
 .plans-content {
-    height: 800px;
+    height: 880px;
 }
 
 .plans-content-enterprise, .plans-content{
@@ -161,7 +161,8 @@ header .container-1 img {
 
 /* contenuto piani di attivazione */
 .plans-title img {
-    height: 14px;
+    height: 18px;
+    vertical-align: middle;
 }
 
 .plans-img {
@@ -178,8 +179,9 @@ header .container-1 img {
     display: inline-block;
     width: 90%;
 }
-.plans-content ul li img {
-    height: 14px;
+
+.plans-img img {
+    height: 18px;
 }
 
 .plans-content h3, .plans-content-enterprise h3 {
@@ -474,4 +476,9 @@ footer .container-2 hr {
     color: #ccc;
     font-size: 10px;
     padding-top: 20px;
+}
+
+.lang img {
+    width: 15px;
+    vertical-align: middle;
 }
