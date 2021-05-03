@@ -306,16 +306,32 @@ header .container-1 img {
 
 .box {
     width: calc(100% / 3);
-    height: 400px;
+    height: calc(100vw /3);
 }
 
 .box-color {
     background: #F5F5F5;
+    padding: 60px 40px;
+}
+
+.box-color svg {
+    width: 80px;
+}
+
+.box-color hr {
+    width: 60px;
+    margin: 25px 0;
+}
+
+.box-text {
+    font-size: 12px;
+    padding: 25px 0;
 }
 
 [class^="small-box-"] {
     width: 50%;
     height: 50%;
+    position: relative;
 }
 
 .small-box-1 {
@@ -348,8 +364,25 @@ header .container-1 img {
 
 .small-box-8 {
     background: #FAD42F;
+    border: 10px solid #FFEB98;
 }
 
+.client-logo {
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.client-logo svg {
+    width: 120px;
+}
+
+.client-logo svg path {
+    fill: #fff;
+}
+
+/* sezione sotto i cubi */
 .free {
     background: #B9CFE5;
     padding: 100px 0;
